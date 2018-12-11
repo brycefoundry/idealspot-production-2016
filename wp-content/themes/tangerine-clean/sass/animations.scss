@@ -1,0 +1,69 @@
+
+@import "compass/css3/transform";
+@import "compass/css3";
+@import "plugins";
+
+@include keyframes(sky) {
+  0%{@include opacity(0);@include transform(translate3d(0%,0%,0));}
+  5%{@include opacity(1);@include transform(translate3d(0%,0%,0));}
+  70%{@include opacity(1);@include transform(translate3d(100%,-100%,0));}
+  75%{@include opacity(0);@include transform(translate3d(100%,-100%,0));}
+  90%{@include opacity(0);@include transform(translate3d(0,0%,0));}
+  100%{@include opacity(1);@include transform(translate3d(0%,0%,0));}
+}
+
+@include keyframes(drive-car-1) {
+  0%{@include opacity(0);@include transform(translate3d(2500%, -2061%, 0));}
+  5%{@include opacity(1);@include transform(translate3d(2500%, -2061%, 0));}
+  70%{@include opacity(1);@include transform(translate3d(-970%, 761%, 0));}
+  75%{@include opacity(0);@include transform(translate3d(-970%, 761%, 0));}
+  90%{@include opacity(0);@include transform(translate3d(2500%, -2061%, 0));}
+  100%{@include opacity(1);@include transform(translate3d(2500%, -2061%, 0));}
+}
+
+
+@include keyframes(drive-car-2) {
+  0%{@include opacity(0);@include transform(translate3d(75%, 0, 0));}
+  5%{@include opacity(1);@include transform(translate3d(75%, 0, 0));}
+  70%{@include opacity(1);@include transform(translate3d(2377%,-2000%,0));}
+  75%{@include opacity(0);@include transform(translate3d(2377%,-2000%,0));}
+  90%{@include opacity(0);@include transform(translate3d(75%, 0, 0));}
+  100%{@include opacity(1);@include transform(translate3d(75%, 0, 0));}
+}
+
+@include keyframes(drive-car-3) {
+  0%{@include opacity(0);@include transform(translate3d(-2155%, -1460%, 0));}
+  5%{@include opacity(1);@include transform(translate3d(-2155%, -1460%, 0));}
+  70%{@include opacity(1);@include transform(translate3d(1095%, 780%, 0));}
+  75%{@include opacity(0);@include transform(translate3d(1095%, 780%, 0));}
+  90%{@include opacity(0);@include transform(translate3d(-2155%, -1460%, 0));}
+  100%{@include opacity(1);@include transform(translate3d(-2155%, -1460%, 0));}
+}
+
+
+
+@include keyframes(drive-car-4) {
+  0%{@include opacity(0);@include transform(translate3d(-235%, -210%, 0));}
+  5%{@include opacity(1);@include transform(translate3d(-235%, -210%, 0));}
+  70%{@include opacity(1);@include transform(translate3d(-2465%, -2060%, 0));}
+  75%{@include opacity(0);@include transform(translate3d(-2465%, -2060%, 0));}
+  90%{@include opacity(0);@include transform(translate3d(-235%, -210%, 0));}
+  100%{@include opacity(1);@include transform(translate3d(-235%, -210%, 0));}
+}
+
+
+@include keyframes(drive-car-6) {
+  0%{@include opacity(0);@include transform(translate3d(2570%, 1826%, 0));}
+  5%{@include opacity(1);@include transform(translate3d(2570%, 1826%, 0));}
+  70%{@include opacity(1);@include transform(translate3d(6370%, -1386%, 0));}
+  75%{@include opacity(0);@include transform(translate3d(6370%, -1386%, 0));}
+  90%{@include opacity(0);@include transform(translate3d(2570%, 1826%, 0));}
+  100%{@include opacity(1);@include transform(translate3d(2570%, 1826%, 0));}
+}
+
+@include keyframes(fade-people) {
+  0%{@include opacity(0);}
+  50%{@include opacity(1);}
+  100%{@include opacity(0);}
+}
+

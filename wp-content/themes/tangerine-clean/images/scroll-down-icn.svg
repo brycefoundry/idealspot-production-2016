@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="54px" height="54px" viewBox="0 0 54 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>scroll down icn</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="27" cy="27" r="27"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="54" height="54" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Products" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-Products" transform="translate(-1241.000000, -646.000000)">
+            <g id="scroll-down-icn" transform="translate(1241.000000, 646.000000)">
+                <use id="Oval-4" stroke-opacity="0.236158288" stroke="#3271A8" mask="url(#mask-2)" stroke-width="8" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M32.5918043,30.6599688 L24.3265335,38.9252396 C23.9229128,39.3288604 23.3943946,39.5306707 22.8656469,39.5306707 C22.3368992,39.5306707 21.808381,39.3288604 21.4047603,38.9252396 C20.5975188,38.118687 20.5975188,36.8097895 21.4047603,36.0032368 L28.2089149,29.1990822 L21.4047603,22.3946981 C20.5975188,21.5881454 20.5975188,20.2792479 21.4047603,19.4726952 C22.2120017,18.6654538 23.5195217,18.6654538 24.3267631,19.4726952 L32.5920339,27.737966 C33.3990457,28.5445187 33.3990457,29.8536458 32.5918043,30.6599688 L32.5918043,30.6599688 Z" id="Shape" fill="#1B84E3" transform="translate(26.998297, 29.198967) rotate(-270.000000) translate(-26.998297, -29.198967) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
